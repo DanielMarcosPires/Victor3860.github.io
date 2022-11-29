@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+   
+}
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.titulo{
+    margin: auto;
+    padding-left: 70px;
+    color: #c6299c;
+}
+.menu ul{
+    background-color: #c6299c;
+    list-style: none;
+    padding-left: 500px;
+}
+
+.menu ul li{
+    display: inline;
+}
+ 
+.menu ul li a {
+    
+    padding: 15px 20px;
+    display: inline-block;
+    color: azure;
+    text-decoration: none;
+   
+}
+.menu ul li a:hover{
+color: coral;
+}
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+    }
+    .menu li:hover ul, .menu li.over ul {
+        display:block;
+    }
+    .menu li ul li{
+        border:1px solid #c0c0c0;
+        display:block;
+        width:150px;
+        }
+
+.titulo { 
+    display: flex;
+    align-items:center;
+}
+
+.atividades {
+    color:white;
+    background-color: #f0cb00;
+    width: 200px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 215px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    
+}
+
+.frutas{
+background-color: rgb(255, 173, 207);
+display: inline-block;
+color: white;
+padding-left: 10px;
+padding-right: 10px;
+margin-right: 30px;
+}
+.frutas img{
+ width: 150px;
+height: 150px;
+}
+
+    .frutas a {
+        list-style: none;
+        text-decoration: none;
+    }
+
+.objetos{
+    background-color: rgb(255, 173, 207);
+    display: inline-block;
+    position: relative;
+    color: white;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.objetos img{
+
+    width: 150px;
+    height: 150px;
+}
+
+.objetos a {
+    list-style: none;
+    text-decoration: none;
+}
+.rodape{
+    background-color: rgb(55, 189, 191);
+    justify-content: center ;
+    align-items: center;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    color: antiquewhite;
+    font-style: lighter;
+    font-weight: lighter;
+    font-size: 12px;
+    padding-left: 200px;
+    
+    
+}
+.menurodape{
+    display: block;
+    list-style: "| ";
+    font-size: 14px;
+    padding-top: 120px;
+    
+}
+.inforodape{
+   padding-left: 300px;
+}
+.linharodape{
+    padding-top: 250px;
+    padding-right: 300px;
+}
+.menurodape li:hover{
+    cursor:pointer;
+    color: rgb(246, 171, 125);
+}
+/*SOBRE E PAIS*/
+.texto{
+width: 50%;
+margin-left: 50px;
+}
+.texto h1{
+    color: #c6299c;
+    display: inline;
+    
+}
+.img_direita{
+    margin-left: 750px;
+}
+/*INSCREVA-SE*/
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form input{
+outline: unset;
+padding: 20px;
+width: 300px;
+border: 1px solid  #c6299c;
+border-radius: 20px;
+margin-bottom: 20px;
+margin-right: 20px;
+}
+form input [type="submit"]{
+background-color: #c6299c;
+
+}
+
+
+
+
+
+
+
+
