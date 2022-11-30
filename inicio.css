@@ -72,7 +72,10 @@ color: coral;
     padding-right: 10px;
     padding-top: 10PX;
 }
-
+.carousel-item{
+    max-width: 150px;
+    margin-left: 25px;
+}
 
 .frutas{
 background-color: rgb(255, 173, 207);
@@ -153,19 +156,13 @@ height: 150px;
     cursor:pointer;
     color: rgb(246, 171, 125);
 }
-/*SOBRE E PAIS*/
-.texto{
-width: 50%;
-margin-left: 50px;
-}
-.texto h1{
-    color: #c6299c;
-    display: inline;
-    
-}
+/*SOBRE*/
 .img_direita{
-    
-    margin-left: 500px;
+    position: relative;
+    left: 75%;
+}
+.texto{
+    display: flex;
 }
 /*INSCREVA-SE*/
 .formulario{
