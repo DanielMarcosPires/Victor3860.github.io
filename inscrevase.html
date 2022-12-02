@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOBRE</title>
     <link href="inicio.css" rel="stylesheet" type="text/css" />
+    <script src="js/form.js"></script>
 </head>
 <body>
     <body>
@@ -24,7 +25,7 @@
      </div>
      </nav>
      <div class="formulario">
-    <form action="/pagina-processa-dados-do-form" method="post">
+    <form name="cadasto" action="#" method="post" onsubmit="senhaOK();">
         <div>
             <label for="nome">Nome:</label>
             <input type="text" placeholder="Digite seu nome" id="nome" />
@@ -34,18 +35,19 @@
         </div>
         <div>
             <label for="email">E-mail:</label>
-            <input type="email" placeholder="Digite seu e-mail" id="email" />
+            <input type="email" placeholder="Digite seu e-mail" id="email" onblur="validarEmail()" onfocus="redefinirMsg()"/>
+            <span id="error-email"></span>
         </div>
         <div>
-            <label for="msg">Senha:</label>
-            <input type="password" placeholder="Digite uma senha" id="senha"/>
+            <label for="senha">Senha:</label>
+            <input type="password" placeholder="Digite sua senha" name="senha" required onchange="confereSenha();"/>
         </div>
         <div>
-            <label for="msg"> Confirmar Senha:</label>
-            <input type="password" placeholder="Confirme seu e-mail" id="senha"/>
+            <label for="confirm"> Confirmar Senha:</label>
+            <input type="password" placeholder="Confirme sua senha" name="confirma" required onchange="confereSenha();"/>
         </div>
         <div>
-            <input type="submit" value="Cadastrar-se"/>
+            <input type="submit" value="Cadastrar-se" id="envia"/>
         </div>
     </form>
 </div>

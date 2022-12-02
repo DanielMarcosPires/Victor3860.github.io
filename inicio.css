@@ -2,14 +2,23 @@ body{
     margin: 0;
    
 }
+
+
 *{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+/*TEXTO LADO DIREITO DA IMAGEM NO TOPO*/
 .titulo{
     margin: auto;
     padding-left: 70px;
     color: #c6299c;
 }
+
+.titulo { 
+    display: flex;
+    align-items:center;
+}
+/*MENU*/
 .menu ul{
     background-color: #c6299c;
     list-style: none;
@@ -49,16 +58,31 @@ color: coral;
         width:150px;
         }
 
-.titulo { 
-    display: flex;
-    align-items:center;
-}
+        /*PRIMEIRO CAROUSEL*/
 
 .carousel_1{
     margin-left: 99px;
     margin-right: 99px;
 }
-
+.carousel-itemx{
+    position: relative;
+}
+.legenda{
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+}
+.legenda h1{
+    color: white;
+    background-color: rgb(51, 175, 177);
+    max-width: 400px;
+    margin: auto;
+    padding-left: 15px;
+}
+ /*CAIXA AMARELA*/
 .atividades {
     color:white;
     background-color: #f0cb00;
@@ -72,6 +96,8 @@ color: coral;
     padding-right: 10px;
     padding-top: 10PX;
 }
+
+
 .carousel-item{
     max-width: 150px;
     margin-left: 25px;
@@ -88,6 +114,10 @@ color: white;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+}
+ /*Caixa alimentos e objetos*/
+.frutas a:hover{
+    color: coral;
 }
 .frutas img{
  width: 150px;
@@ -123,6 +153,11 @@ height: 150px;
     color: #fff;
     margin-left: 9px;
 }
+
+.objetos a:hover{
+    color: coral;
+}
+/*RODAPÉ*/
 .rodape{
     background-color: rgb(55, 189, 191);
     justify-content: center ;
@@ -156,7 +191,7 @@ height: 150px;
     cursor:pointer;
     color: rgb(246, 171, 125);
 }
-/*SOBRE*/
+/* PAGINA SOBRE*/
 .img_direita{
     position: relative;
     left: 75%;
@@ -164,7 +199,7 @@ height: 150px;
 .texto{
     display: flex;
 }
-/*INSCREVA-SE*/
+/* PAGINA INSCREVA-SE*/
 .formulario{
     display: flex;
     align-items: center;
