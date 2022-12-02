@@ -3,28 +3,35 @@ body{
    
 }
 
-
+:root{
+    --rosa:#ffadcf;
+}
 *{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.margem{
+    margin: 0 auto;
+    width: 85%;
 }
 /*TEXTO LADO DIREITO DA IMAGEM NO TOPO*/
 .cabecalho__ajuste{
     display: flex;
+    justify-content: center;
     align-items: center;
     margin: 0 auto;
-    padding-left: 70px;
     color: #c6299c;
-    width: 90%;
+    width: 100%;
 }
 /*MENU*/
 .menu ul{
+    display: flex;
     background-color: #c6299c;
+    justify-content: center;
     list-style: none;
-    padding-left: 420px;
-    margin-left: 100px;
     margin-right: 100px;
+    width: 100%;
 }
-
 .menu ul li{
     display: inline;
 }
@@ -55,19 +62,10 @@ color: coral;
         display:block;
         width:150px;
         }
-
         /*PRIMEIRO CAROUSEL*/
 
-.carousel_1{
-    margin-left: 99px;
-    margin-right: 99px;
-}
-.carousel-itemx{
-    position: relative;
-}
 .lista{
     display: flex;
-    align-items: center;
     margin: 0 auto;
     padding: 8px 0;
     width: 50%;
@@ -95,10 +93,7 @@ color: coral;
 }
 
 
-.carousel-item{
-    max-width: 150px;
-    margin-left: 25px;
-}
+
 .lista li{
     text-align: center;
     display: flex;
@@ -143,7 +138,17 @@ color: coral;
     color: #fff;
     margin-left: 9px;
 }
-
+.alimentos{
+    background: var(--rosa);
+   
+}
+.alimentos a{
+    color: #fff;
+    text-decoration: none;
+}
+.alimentos a:hover{
+    color: coral;
+}
 .animais a:hover{
     color: coral;
 }
