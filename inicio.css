@@ -135,6 +135,7 @@ height: 150px;
     display: inline-block;
     position: relative;
     color: white;
+    margin-right: 30px;
     padding-left: 10px;
     padding-right: 30px;
     padding-bottom: 10px;
@@ -143,7 +144,7 @@ height: 150px;
 
     width: 150px;
     height: 150px;
-    margin-left: 25px;
+    margin-left: 8px;
 
 }
 
@@ -155,6 +156,33 @@ height: 150px;
 }
 
 .objetos a:hover{
+    color: coral;
+}
+.animais{
+    background-color: rgb(255, 173, 207);
+    display: inline-block;
+    position: relative;
+    color: white;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.animais img{
+
+    width: 150px;
+    height: 150px;
+    margin-left: 8px;
+
+}
+
+.animais a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 9px;
+}
+
+.animais a:hover{
     color: coral;
 }
 /*RODAPÉ*/
@@ -191,13 +219,22 @@ height: 150px;
     cursor:pointer;
     color: rgb(246, 171, 125);
 }
-/* PAGINA SOBRE*/
+/* PAGINA SOBRE E PAIS*/
 .img_direita{
-    position: relative;
-    left: 75%;
+    float: right;
+    margin-right: 100px;
+    margin-left: 20px;
 }
 .texto{
-    display: flex;
+    margin-left: 100px;
+}
+.texto h1{
+    color: #c6299c;
+    
+}
+
+.solucao{
+    color: #c6299c;
 }
 /* PAGINA INSCREVA-SE*/
 .formulario{
