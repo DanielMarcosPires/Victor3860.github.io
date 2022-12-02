@@ -158,6 +158,7 @@ height: 150px;
 .objetos a:hover{
     color: coral;
 }
+/*CAIXA ANIMAIS */
 .animais{
     background-color: rgb(255, 173, 207);
     display: inline-block;
